@@ -1,0 +1,144 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+   font-family: 'OpenSans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+// Nav
+.top-nav{
+  background-color: rgb(245,245,245);
+  li{
+    font-weight: bold
+  }
+
+
+
+}
+.git-logo{
+  max-width: 40px;
+
+}
+// Search
+#task-name{
+  width: 300px;
+}
+.git-ops{
+
+  ul{
+    display: inline-block;
+  }
+  li{
+    display: inline-block;
+  }
+}
+.profile{
+  display: inline-block;
+  max-width: 20%;
+  float: right;
+  line-height: 40px;
+  li{
+    display: inline-block;
+
+    img{
+      max-width: 20px;
+    }
+
+  }
+
+}
+// Profile
+.profile-sidebar{
+  padding-top: 27px;
+}
+.side-avatar-pic{
+  border-radius: 5px;
+  width: 221px;
+}
+.git-profile{
+  span{
+    display: block;
+  }
+}
+.git-avatar{
+  list-style: none;
+
+  img{
+    max-width: 100%;
+    border-radius: 3px;
+    margin-left: 80px;
+  }
+}
+.sidebar-org-avatar{
+  img{
+    width: 45px;
+    border-radius: 5px;
+  }
+}
+.full-name{
+  font-size: 27px;
+  font-weight: bold;
+}
+.user-name{
+  font-size: 22px;
+  font-weight: 200;
+}
+li{
+  list-style: none;
+}
+// Content Tabs
+.editor{
+  float: right;
+  li{
+    display: inline-block;
+  }
+}
+.tabnav-tabs{
+  display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+// Repo Search
+.right-t{
+  li{
+    display: inline-block;
+    padding-right: 8px;
+  }
+  .btn-primary{
+    float: right;
+    margin-right: 95px;
+  }
+  #repo-search{
+    width: 237px;
+  }
+}
+.repo-list-stat{
+  float: right;
+  margin-right: 80px;
+}
+.fa{
+  color: grey;
+}
+.glyphicon{
+  color: grey;
+}
