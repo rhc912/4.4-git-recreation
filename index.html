@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>4 4 github profile</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+<div class="container-fluid">
+  <div class="wrapper">
+<!-- Top Nav !-->
+  <nav class="top-nav row">
+    <div class="col-md-12">
+      <ul class="profile">
+        <li class="add"><a href="#"><img src="http://vignette2.wikia.nocookie.net/survivalcraftgame/images/9/9f/Addition_sign.jpeg/revision/latest?cb=20130906110959"><span id="nav-drop" class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+        <li class="profile-pic"><a href="#"><img src="https://avatars.githubusercontent.com/u/18468639?v=3"><span id="nav-drop2" class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+      </ul>
+
+      <ul class="git-ops">
+        <li class="git-logo"><img src="images/GitHub-Mark-32px.png"></li>
+        <input id="task-name" placeholder="Search Github">
+        <li>Pull Requests</li>
+        <li>Issues</li>
+        <li>Gist</li>
+      </ul>
+    </div>
+  </nav>
+<!-- Git Profile !-->
+<div class="left-profile row">
+  <div class="col-md-3">
+    <section class="profile-sidebar js-sidebar-data">
+
+    </section>
+  </div>
+
+<!-- Main content !-->
+  <div class="col-xs-9"> <!-- Nest columns !-->
+    <div class="main-content row">
+<!-- Content Tabs !-->
+      <div class="editor">
+        <li class="edit"><button class="btn btn-sm"><i class="fa fa-pencil">Edit Profile</i></button></li>
+      </div>
+      <nav class="tabnav-tabs">
+        <a href="#" class="tabnav-tabs"><i class="fa fa-plus-square-o"></i>Contributions</a>
+        <a href="#" class="tabnav-tabs"><i class="fa fa-book"></i>Repositories</a>
+        <a href="#" class="tabnav-tabs"><i class="fa fa-rss"></i>Public Activity</a>
+      </nav>
+    <div>
+      <ul class="right-t">
+        <input id="repo-search" placeholder="Find Repository"><button class="btn btn-sm">Search</button><a href="#"><button class="btn btn-primary">New</button></a>
+        <li><a href="#">All</a></li>
+        <li><a href="#">Public</a></li>
+        <li><a href="#">Private</a></li>
+        <li><a href="#">Sources</a></li>
+        <li><a href="#">Forks</a></li>
+        <li><a href="#">Mirrors</a></li>
+    </ul>
+    </div>
+      <section class="repo-bar js-repo-list">
+
+      </section>
+    </div> <!-- marker !-->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div><!-- Container !-->
+
+      <!-- Profile Template !-->
+        <script id="sidebarTemplate" type="text/x-handlebars-template">
+          <a href="#" class="sideavatar-link"><img src="{{avatar_url}}" alt="" class="side-avatar-pic"></a>
+          <h1 class="names">
+            <div class="full-name">{{name}}</div>
+            <div class="user-name">{{login}}</div>
+          </h1>
+          <ul "info-side">
+            <li>
+              <div class="glyphicon glyphicon-map-marker"></div>
+              <span class="specific-info">{{location}}</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div class="glyphicon glyphicon-envelope"></div>
+              <span class="specific-info">{{email}}</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div class="glyphicon glyphicon-calendar"></div>
+              <span class="specific-info">Joined on</span>
+              <span class="specific-info">April 14, 2016</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#" class="sidebar-stat">
+                <strong class="sidebar-stat-count">{{followers}}</strong>
+                <span class="sidebar-stat-follower">Followers</span>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <a href="#" class="sidebar-stat">
+              <strong class="sidebar-stat-count">{{starred}}</strong>
+              <span class="sidebar-stat-starred">Starred</span>
+            </a>
+          </ul>
+          <ul>
+            <a href="#" class="sidebar-stat-count">
+              <strong class="sidebar-stat-count">{{following}}</strong>
+              <span class="sidebar-stat-following">Following</span>
+            </a>
+          </ul>
+          <div>
+            <h3 class="organizations"><strong>Organizations</strong></h3>
+            <a href="#" class="sidebar-org-avatar"><img src="images/sidebar-org-avatar.png" alt=""></a>
+          </div>
+      </script>
+      <!-- Repo Template !-->
+        <script id="repotemplate" type="text/x-handlebars-template">
+          <div class="repo-list-item">
+            <div class="repo-list-stat">
+              <span class="language">{{language}}</span>
+              <a href="#"><i class="fa fa-star"></i>{{stargazers_count}}</a>
+              <a href="#"><i class="fa fa-code-fork"></i>{{forks_count}}</a>
+            </div>
+            <h3 class="repo-list-name"><a href="#">{{name}}</a></h3>
+            <p class="repo-list-updated">Updated <time>{{updated_at}}</time></p>
+
+          </div>
+        </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
