@@ -42,14 +42,14 @@
       <div class="editor">
         <li class="edit"><button class="btn btn-sm"><i class="fa fa-pencil">Edit Profile</i></button></li>
       </div>
-      <nav class="tabnav-tabs">
-        <a href="#" class="tabnav-tabs"><i class="fa fa-plus-square-o"></i>Contributions</a>
-        <a href="#" class="tabnav-tabs"><i class="fa fa-book"></i>Repositories</a>
-        <a href="#" class="tabnav-tabs"><i class="fa fa-rss"></i>Public Activity</a>
-      </nav>
+        <ul class="nav nav-tabs github-nav-tabs">
+            <li role="presentation" class=""><a href="#">Overview</a></li>
+            <li role="presentation" class="active"><a href="#">Repositories</a></li>
+            <li role="presentation" class=""><a href="#">Public Activity</a></li>
+        </ul>
     <div>
       <ul class="right-t">
-        <input id="repo-search" placeholder="Find Repository"><button class="btn btn-sm">Search</button><a href="#"><button class="btn btn-primary">New</button></a>
+        <input id="repo-search" placeholder="Find Repository"><button class="search btn btn-sm">Search</button><a class="pull-right" href="#"><button class="btn btn-success">New</button></a>
         <li><a href="#">All</a></li>
         <li><a href="#">Public</a></li>
         <li><a href="#">Private</a></li>

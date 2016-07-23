@@ -106,6 +106,13 @@ li{
     display: inline-block;
   }
 }
+.nav{
+  margin-top: 22px;
+}
+//Button
+.search{
+  background-image: linear-gradient(#fcfcfc, #eee);
+}
 .tabnav-tabs{
   display: inline-block;
     padding: 8px 12px;
@@ -129,8 +136,12 @@ li{
     margin-right: 95px;
   }
   #repo-search{
+    border: 1px solid #ddd;
     width: 237px;
   }
+}
+.repo-list-item{
+  border-bottom: 1px solid grey;
 }
 .repo-list-stat{
   float: right;
