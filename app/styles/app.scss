@@ -63,6 +63,7 @@ img {
 // Profile
 .profile-sidebar{
   padding-top: 27px;
+  margin-left: 45px;
 }
 .side-avatar-pic{
   border-radius: 5px;
@@ -124,6 +125,12 @@ li{
     border: 1px solid transparent;
     border-bottom: 0;
 }
+.edit{
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 20px;
+
+}
 
 // Repo Search
 .right-t{
@@ -138,10 +145,20 @@ li{
   #repo-search{
     border: 1px solid #ddd;
     width: 237px;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 20px;
+    height: 34px;
   }
 }
 .repo-list-item{
   border-bottom: 1px solid grey;
+}
+.overview{
+  color: #666;
+}
+.public-activity{
+  color: #666;
 }
 .repo-list-stat{
   float: right;
