@@ -142,6 +142,13 @@ li{
   line-height: 20px;
 
 }
+.edit-modal{
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #eee;
+  border: 1px solid #d5d5d5;
+}
 
 // Repo Search
 .right-t{
@@ -160,7 +167,13 @@ li{
     margin-top: 15px;
     line-height: 20px;
     height: 34px;
+    border-radius: 3px;
+    padding-left: 7px;
   }
+}
+.search{
+  border-radius: 3px;
+  margin-left: 6px;
 }
 .repo-list-item{
   border-bottom: 1px solid grey;
