@@ -5783,6 +5783,17 @@ img {
 #task-name {
   width: 300px; }
 
+.pull-requests {
+  color: #333; }
+
+.issues {
+  margin-left: 7px;
+  color: #333; }
+
+.gist {
+  margin-left: 7px;
+  color: #333; }
+
 .git-ops ul {
   display: inline-block; }
 .git-ops li {
@@ -5799,7 +5810,8 @@ img {
       max-width: 20px; }
 
 .profile-sidebar {
-  padding-top: 27px; }
+  padding-top: 27px;
+  margin-left: 45px; }
 
 .side-avatar-pic {
   border-radius: 5px;
@@ -5835,6 +5847,13 @@ li {
   .editor li {
     display: inline-block; }
 
+.nav {
+  margin-top: 22px; }
+
+.search {
+  background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+  background-image: linear-gradient(#fcfcfc, #eee); }
+
 .tabnav-tabs {
   display: inline-block;
   padding: 8px 12px;
@@ -5846,6 +5865,18 @@ li {
   border: 1px solid transparent;
   border-bottom: 0; }
 
+.edit {
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 20px; }
+
+.edit-modal {
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #eee;
+  border: 1px solid #d5d5d5; }
+
 .right-t li {
   display: inline-block;
   padding-right: 8px; }
@@ -5853,7 +5884,27 @@ li {
   float: right;
   margin-right: 95px; }
 .right-t #repo-search {
-  width: 237px; }
+  border: 1px solid #ddd;
+  width: 237px;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 20px;
+  height: 34px;
+  border-radius: 3px;
+  padding-left: 7px; }
+
+.search {
+  border-radius: 3px;
+  margin-left: 6px; }
+
+.repo-list-item {
+  border-bottom: 1px solid grey; }
+
+.overview {
+  color: #666; }
+
+.public-activity {
+  color: #666; }
 
 .repo-list-stat {
   float: right;
@@ -5864,4 +5915,5 @@ li {
 
 .glyphicon {
   color: grey; }
+
 /*# sourceMappingURL=app.css.map */

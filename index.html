@@ -21,9 +21,9 @@
       <ul class="git-ops">
         <li class="git-logo"><img src="images/GitHub-Mark-32px.png"></li>
         <input id="task-name" placeholder="Search Github">
-        <li>Pull Requests</li>
-        <li>Issues</li>
-        <li>Gist</li>
+        <li class="pull-requests">Pull Requests</li>
+        <li class="issues">Issues</li>
+        <li class="gist">Gist</li>
       </ul>
     </div>
   </nav>
@@ -40,16 +40,16 @@
     <div class="main-content row">
 <!-- Content Tabs !-->
       <div class="editor">
-        <li class="edit"><button class="btn btn-sm"><i class="fa fa-pencil">Edit Profile</i></button></li>
+        <li class="edit"><button class="edit-modal btn btn-sm"><i class="fa fa-pencil">Edit Profile</i></button></li>
       </div>
-      <nav class="tabnav-tabs">
-        <a href="#" class="tabnav-tabs"><i class="fa fa-plus-square-o"></i>Contributions</a>
-        <a href="#" class="tabnav-tabs"><i class="fa fa-book"></i>Repositories</a>
-        <a href="#" class="tabnav-tabs"><i class="fa fa-rss"></i>Public Activity</a>
-      </nav>
+        <ul class="nav nav-tabs github-nav-tabs">
+            <li role="presentation" class=""><a class="overview" href="#">Overview</a></li>
+            <li role="presentation" class="active"><a class="repositories" href="#">Repositories</a></li>
+            <li role="presentation" class=""><a class="public-activity" href="#">Public Activity</a></li>
+        </ul>
     <div>
       <ul class="right-t">
-        <input id="repo-search" placeholder="Find Repository"><button class="btn btn-sm">Search</button><a href="#"><button class="btn btn-primary">New</button></a>
+        <input id="repo-search" placeholder="Find Repository"><button class="search btn btn-sm">Search</button><a class="pull-right" href="#"><button class="btn btn-success">New</button></a>
         <li><a href="#">All</a></li>
         <li><a href="#">Public</a></li>
         <li><a href="#">Private</a></li>
